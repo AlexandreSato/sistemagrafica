@@ -1,5 +1,6 @@
+
 Public Sub SALVAR()
-Range("A7:E7").Select
+Range("A7:f7").Select
 Selection.Copy
 Sheets(" Matriz Base").Select
     Range("A1048576").End(xlUp).Offset(1, 0).Select
